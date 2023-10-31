@@ -1,5 +1,6 @@
-# WebAR: A test repo.
+# WebXR: Room to host my sample projects
 
+<!-- 
 ## Stepping In...
 
 ### Dependancies 
@@ -10,7 +11,7 @@
 
 ### Steps for beg.:
 
-<!-- _**only export `main.js`, `index.html`, and `public/` (and dependencies)**_   -->
+<!-- _**only export `main.js`, `index.html`, and `public/` (and dependencies)**_   --
 
 1. `npm install`
 2. `npm start`
@@ -27,7 +28,8 @@ _The result of executing above commands should look like:_
   ➜  Network: use --host to expose
   ➜  press h to show help
 
-```
+``` -->
+
 
 ## Sample Projects 
 
