@@ -1,5 +1,6 @@
- // Load data from a JSON file
- fetch('./data/data2.json')
+// Load data from a JSON file
+
+fetch("./data/data" + prompt("Choose one dataset (1, 2)?") + ".json")
  .then(response => response.json())
  .then(jsonData => createBarGraph(jsonData))
  .catch(error => console.error(error));

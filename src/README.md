@@ -1,7 +1,14 @@
 # Sample WebXR Projects  
 
-## Basic Level
+## Basic Level  
 
-1. [Drawing Graphs in VR](./basics/graphs/bars-vr.html)  
-2. [Drawing Graphs with marker-based AR _(with stable camera)_](./basics/graphs/bars-ar-mark.html)  
-2. [Drawing Graphs with marker-based AR _(with stable marker)_](./basics/graphs/bars-ar-cam.html)  
+### VR Solutions  
+
+1. [Drawing Graphs](./basics/graphs/bars-vr.html)  
+
+### Marker-based AR Solutions  
+
+1. [Drawing Graphs with _stable camera_](./basics/graphs/bars-ar-mark.html)  
+2. [Drawing Graphs with _stable marker_](./basics/graphs/bars-ar-cam.html)  
+3. [Drawing Graphs with dynamic data](./basics/graphs/bars-ar-data.html)  
+
