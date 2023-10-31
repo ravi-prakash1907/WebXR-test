@@ -10,9 +10,9 @@
 
 ### Steps for beg.:
 
-_**only export `main.js`, `index.html`, and `public/` (and dependencies)**_  
+<!-- _**only export `main.js`, `index.html`, and `public/` (and dependencies)**_   -->
 
-1. `npm install --save aframe`
+1. `npm install`
 2. `npm start`
 
 Now the project will be accessible at [http://localhost:8080/](http://localhost:8080/)  
