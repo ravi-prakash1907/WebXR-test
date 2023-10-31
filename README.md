@@ -31,4 +31,10 @@ _The result of executing above commands should look like:_
 
 ## Sample Projects 
 
-The links to some sample projects can be found on the [src](./src) page.
+The links to some sample projects can be found on the [src](./src) page.  
+
+---  
+
+Following is the frequently used **Hiro marker**:  
+
+![Hiro Marker](https://upload.wikimedia.org/wikiversity/en/0/08/Pattern-hiro.png)   
