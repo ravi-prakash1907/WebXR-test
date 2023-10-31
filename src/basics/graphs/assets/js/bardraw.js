@@ -1,5 +1,5 @@
  // Load data from a JSON file
- fetch('../../../../../../data/data.json')
+ fetch('../../../../../data/data.json')
  .then(response => response.json())
  .then(jsonData => createBarGraph(jsonData))
  .catch(error => console.error(error));
