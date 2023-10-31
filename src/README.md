@@ -1,4 +1,4 @@
-# Sample Web-AR Projects  
+# Sample WebXR Projects  
 
 ## Basic Level
 
