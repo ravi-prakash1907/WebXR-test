@@ -1,5 +1,6 @@
 // Load data from a JSON file
-fetch("http://0.0.0.0:8000/" + prompt("Choose one dataset (1, 2)?"), {
+fetch("http://localhost:8000/" + prompt("Choose one dataset (1, 2)?"), {
+// fetch("http://0.0.0.0:8000/" + prompt("Choose one dataset (1, 2)?"), {
     method: 'GET',
     mode: 'cors'
 })
