@@ -1,11 +1,15 @@
 // Load data from a JSON file
-
-fetch("./data/data" + prompt("Choose one dataset (1, 2)?") + ".json")
+fetch("http://localhost:8000/" + prompt("Choose one dataset (1, 2)?"), {
+// fetch("http://0.0.0.0:8000/" + prompt("Choose one dataset (1, 2)?"), {
+    method: 'GET',
+    mode: 'cors'
+})
  .then(response => response.json())
  .then(jsonData => createBarGraph(jsonData))
  .catch(error => console.error(error));
 
 function createBarGraph(data) {
+    console.log(data)
  var scene = document.querySelector("a-scene");
  var barsContainer = document.getElementById("bars");
 
