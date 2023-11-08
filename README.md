@@ -30,6 +30,36 @@ _The result of executing above commands should look like:_
 
 ``` -->
 
+## Usage
+
+### Step-1: Navigate to API directory and set up a virtual environment  
+
+```sh
+cd ./src/api/ 
+pip install virtualenv
+virtualenv myenv
+```
+
+### Step-2: Activate the `python` virtual envt.  
+
+```sh
+source myenv/bin/activate
+```
+
+### Step-3: Run the API Server  
+
+```sh
+python3 app.py
+```
+
+
+### Step-4: Start the A-Frame App  
+
+```sh
+cd ./src/
+npm start
+```
+
 
 ## Sample Projects 
 
