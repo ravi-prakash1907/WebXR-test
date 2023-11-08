@@ -30,6 +30,23 @@ _The result of executing above commands should look like:_
 
 ``` -->
 
+## Usage
+
+### Step-1: Run the API Server (`python`)  
+
+```sh
+cd ./src/api/ 
+python3 app.py
+```
+
+
+### Step-2: Start the A-Frame App  
+
+```sh
+cd ./src/
+npm start
+```
+
 
 ## Sample Projects 
 
