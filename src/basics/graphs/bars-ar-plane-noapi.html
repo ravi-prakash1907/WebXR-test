@@ -1,0 +1,27 @@
+<!doctype HTML>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe-extras.min.js"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="./bardrawOwnDataPlaneNoAPI.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.2/aframe/build/aframe-ar.js"></script>
+  </head>
+  <body>
+    <a-scene embedded background-color="red" arjs="debugUIEnabled: false;">
+      
+      <a-marker preset="hiro">
+        <a-entity id="bars" rotation="90 0 0" position="-4 0 0"></a-entity>
+      </a-marker>
+      <a-sky color="#FFFFFF"></a-sky> 
+      <a-plane 
+          position="0 0 -7" 
+          rotation="-90 0 0" 
+          width="10" 
+          height="8" 
+          color="#7BC8A4"></a-plane>
+
+    </a-scene>
+
+  </body>
+</html>
