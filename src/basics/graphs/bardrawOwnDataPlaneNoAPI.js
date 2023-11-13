@@ -52,11 +52,13 @@ function createBarGraph(data) {
          width="${barWidth}"
          height="${barHeight}"
          depth="${barWidth}"
-         text="${barCaption}"
          color="${color(i)}"
      ></a-box>`;
 
-     barsContainer.innerHTML += `<a-entity text="text: Hello World; align: center; width: 2; color:#000"></a-entity>`;
+
+     barsContainer.innerHTML += `<a-entity 
+        text="value: ${barCaption}"
+      ></a-entity>`;
  });
 
 //  barsContainer.innerHTML += `<a-plane 
