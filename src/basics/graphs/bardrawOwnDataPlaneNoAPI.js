@@ -1,5 +1,5 @@
 // Load data from a JSON file
-fetch("./data/data" + prompt("Choose one dataset (1, 2)?" + ".json"), {
+fetch("./data/" + prompt("Here, we plot the graph of last 11 days' closing price of choosen stocks (from NIFTY top 100) recorded at 3:00PM. \nChoose one dataset (wipro, zomato)?") + "_ns.json", {
 // fetch("http://0.0.0.0:8000/" + prompt("Choose one dataset (1, 2)?"), {
     method: 'GET',
     mode: 'cors'
