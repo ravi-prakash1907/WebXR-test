@@ -56,15 +56,12 @@ function createBarGraph(data) {
      ></a-box>`;
 
 
-     barsContainer.innerHTML += `<a-entity 
-        text="value: ${barCaption}"
-      ></a-entity>`;
+     barsContainer.innerHTML += `<a-entity text="value: ${barCaption}; align: center;" position="${initPoz * 10} ${(-barHeight / 2)} 0"></a-entity>`;
  });
 
-//  barsContainer.innerHTML += `<a-plane 
-//           position="0 0 -7" 
-//           rotation="-90 0 0" 
-//           width="10" 
-//           height="8" 
-//           color="#7BC8A4"></a-plane>`;
+
+  //  Axes
+  barsContainer.innerHTML += `<a-entity line="start: -3 0 0; end: 3 0 0; color: black;"></a-entity>`
+  barsContainer.innerHTML += `<a-entity line="start: -3 0 0; end: -3 2 0; color: black;"></a-entity>`
+
 }
