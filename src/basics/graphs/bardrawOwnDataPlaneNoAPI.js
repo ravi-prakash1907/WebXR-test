@@ -43,7 +43,7 @@ function createBarGraph(data) {
 
  data.forEach((d, i) => {
      var barRotation = (i / numBars) * 360;
-     var barHeight = d.value * 0.01; // Adjust the scale factor as needed
+     var barHeight = d.value * 0.1; // Adjust the scale factor as needed
      var barCaption = d.caption; 
      var initPoz = i / numBars;
 
