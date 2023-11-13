@@ -20,6 +20,7 @@ AFRAME.registerComponent('text', {
       const data = this.data;
       const textEntity = document.createElement('a-text');
       textEntity.setAttribute('value', data.value);
+      textEntity.setAttribute('label', data.label);
       textEntity.setAttribute('align', data.align);
       textEntity.setAttribute('width', data.width);
       this.el.appendChild(textEntity);
@@ -41,8 +42,8 @@ function createBarGraph(data) {
 
  data.forEach((d, i) => {
      var barRotation = (i / numBars) * 360;
-     var barHeight = d.value * 0.1; // Adjust the scale factor as needed
-     var barCaption = d.caption; 
+     var barHeight = d.value * 0.01; // Adjust the scale factor as needed
+     var barCaption = d.label; 
      var initPoz = i / numBars;
 
      barsContainer.innerHTML += `<a-box
@@ -51,6 +52,7 @@ function createBarGraph(data) {
          width="${barWidth}"
          height="${barHeight}"
          depth="${barWidth}"
+         text="${barCaption}"
          color="${color(i)}"
      ></a-box>`;
 
