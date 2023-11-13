@@ -53,10 +53,9 @@ function createBarGraph(data) {
          height="${barHeight}"
          depth="${barWidth}"
          color="${color(i)}"
-         text="${barCaption}"
      ></a-box>`;
 
-    //  barsContainer.innerHTML += `<a-entity text="text: Hello World; align: center; width: 2; color:#000"></a-entity>`;
+     barsContainer.innerHTML += `<a-entity text="text: Hello World; align: center; width: 2; color:#000"></a-entity>`;
  });
 
 //  barsContainer.innerHTML += `<a-plane 
