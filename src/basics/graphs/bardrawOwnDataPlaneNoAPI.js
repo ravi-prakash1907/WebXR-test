@@ -19,8 +19,9 @@ AFRAME.registerComponent('text', {
     init: function () {
       const data = this.data;
       const textEntity = document.createElement('a-text');
-      textEntity.setAttribute('caption', data.Date);
-      textEntity.setAttribute('value', data.AdjClose);
+      textEntity.setAttribute('Date', data.caption);
+      textEntity.setAttribute('AdjClose', data.value);
+      textEntity.setAttribute('value', data.value);
       textEntity.setAttribute('align', data.align);
       textEntity.setAttribute('width', data.width);
       this.el.appendChild(textEntity);
