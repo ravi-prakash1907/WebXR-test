@@ -71,4 +71,5 @@ Following is the frequently used **Hiro marker**:
 
 ![Hiro Marker](https://upload.wikimedia.org/wikiversity/en/0/08/Pattern-hiro.png)   
 ![AR Marker](./src/basics/markers/ar.png)   
-![RASSE Marker](./src/basics/markers/xrm.png)   
+<!-- ![RASSE Marker](./src/basics/markers/xrm.png)    -->
+![RASSE-2 Marker](./src/basics/markers/xrm2.png)   
