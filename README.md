@@ -70,3 +70,4 @@ The links to some sample projects can be found on the [src](./src) page.
 Following is the frequently used **Hiro marker**:  
 
 ![Hiro Marker](https://upload.wikimedia.org/wikiversity/en/0/08/Pattern-hiro.png)   
+![Custom Marker](./src/basics/markers/ar.png)   
