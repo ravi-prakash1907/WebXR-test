@@ -16,42 +16,27 @@
       <a-marker-camera type='pattern' url='../markers/xrm.patt'>
         <!-- <a-entity id="bars" rotation="90 0 0" position="0 0 0"></a-entity> -->
         <a-entity position="0 0 0">
-          <a-box
-            material="src: url(./img/avatar.jpg); side: front"
-            width="1"
-            height="1"
-            depth="1"
-          ></a-box>
-          <a-box
-            material="src: url(./img/hw.jpg); side: back"
-            width="1"
-            height="1"
-            depth="1"
-          ></a-box>
-          <a-box
-            material="src: url(./img/blockchain.jpg); side: left"
-            width="1"
-            height="1"
-            depth="1"
-          ></a-box>
-          <a-box
-            material="src: url(./img/nft.jpg); side: right"
-            width="1"
-            height="1"
-            depth="1"
-          ></a-box>
-          <a-box
-            material="src: url(./img/xr.jpg); side: top"
-            width="1"
-            height="1"
-            depth="1"
-          ></a-box>
-          <a-box
-            material="src: url(./img/immersion.jpg); side: bottom"
-            width="1"
-            height="1"
-            depth="1"
-          ></a-box>
+          <!-- Cube with different images on each face -->
+          <a-box position="0 1.6 -4">
+            <a-entity position="0 0.5 0">
+              <a-plane material="src: url(./img/avatar.jpg)" width="1" height="1"></a-plane>
+            </a-entity>
+            <a-entity position="0 -0.5 0" rotation="180 0 0">
+              <a-plane material="src: url(./img/hw.jpg)" width="1" height="1"></a-plane>
+            </a-entity>
+            <a-entity position="0 0 0.5" rotation="0 90 0">
+              <a-plane material="src: url(./img/blockchain.jpg)" width="1" height="1"></a-plane>
+            </a-entity>
+            <a-entity position="0 0 -0.5" rotation="0 -90 0">
+              <a-plane material="src: url(./img/nft.jpg)" width="1" height="1"></a-plane>
+            </a-entity>
+            <a-entity position="0.5 0 0" rotation="0 180 0">
+              <a-plane material="src: url(./img/xr.jpg)" width="1" height="1"></a-plane>
+            </a-entity>
+            <a-entity position="-0.5 0 0" rotation="0 0 0">
+              <a-plane material="src: url(./img/immersion.jpg)" width="1" height="1"></a-plane>
+            </a-entity>
+          </a-box>
         </a-entity>
       </a-marker-camera>
       <!-- <a-sky color="#FFFFFF"></a-sky> -->
