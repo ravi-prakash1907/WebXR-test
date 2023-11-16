@@ -4,7 +4,8 @@
 
 ### VR Solutions  
 
-1. [Drawing Graphs](./pages/graphs/bars-vr.html)  
+1. [Top View](./pages/graphs/top-vr.html)  
+2. [Front View](./pages/graphs/front-vr.html)  
 
 ### Marker-based AR Solutions  
 
@@ -17,4 +18,10 @@
 
 ## Informative  
 
-1. [Six Components _(3+3)_ of Healthcare Metaverse _(with custom marker)_](./pages/visuals/custom-marker.html)  
+### VR Solutions  
+
+1. [Six Components _(3+3)_ of Healthcare Metaverse](./pages/visuals/hcMetavese-vr.html)  
+
+### Marker-based AR Solutions  
+
+1. [Six Components _(3+3)_ of Healthcare Metaverse _(with custom marker)_](./pages/visuals/hcMetavese-ar.html)  
