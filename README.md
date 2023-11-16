@@ -75,4 +75,4 @@ Following is the frequently used **Hiro marker**:
  Best for 6-%  to 65% pattern ratio generated from:
  https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.htmlhttps://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
 -->
-![RASSE Marker](./src/basics/markers/xrm.png)   
+![RASSE Marker](./src/markers/xrm.png)   
