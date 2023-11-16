@@ -14,6 +14,7 @@
 3. [Drawing Graphs with dynamic data _(circle)_](./pages/graphs/bars-ar-data.html)  
 4. [Drawing Graphs with dynamic data _(aligned)_](./pages/graphs/bars-ar-plane.html)  
 5. [Drawing Graphs with dynamic data _(with api sim.)_](./pages/graphs/bars-ar-plane-noapi.html)  
+6. [Secure Data Representation _(guest access)_](./pages/graphs/bars-ar-plane-noapi_AUTH.html)  
 <!-- 6. [Mixed Rep. _(overlapped like venn-diagram)_](./pages/graphs/bars-ar-venn.html.html)   -->
 
 ## Informative  
