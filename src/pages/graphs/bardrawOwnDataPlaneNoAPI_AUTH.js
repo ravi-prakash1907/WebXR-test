@@ -8,7 +8,7 @@ fetch("./data/" + prompt("Here, we plot the graph of last 11 days' closing price
  .then(jsonData => createBarGraph(jsonData))
  .catch(error => console.error(error));
 
- prompt("As a guest user, you can only access sample data plots!!");
+ alert("As a guest user, you can only access sample data plots!!");
 
 AFRAME.registerComponent('text', {
     schema: {
