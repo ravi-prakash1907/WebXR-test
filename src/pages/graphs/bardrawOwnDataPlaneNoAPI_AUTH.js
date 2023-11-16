@@ -1,5 +1,5 @@
 // Load data from a JSON file
-fetch("./data/" + prompt("Here, we plot the graph of last 11 days' closing price of choosen stocks (from NIFTY top 100) recorded at 3:00PM. \nChoose one dataset (wipro, zomato)?") + "_ns.json", {
+fetch("./data/" + prompt("Here, we plot the graph of last 11 days' closing price of choosen stocks (from NIFTY top 100) recorded at 3:00PM. \nChoose one dataset (wipro, zomato)?") + "_test_ns.json", {
 // fetch("http://0.0.0.0:8000/" + prompt("Choose one dataset (1, 2)?"), {
     method: 'GET',
     mode: 'cors'
@@ -8,6 +8,7 @@ fetch("./data/" + prompt("Here, we plot the graph of last 11 days' closing price
  .then(jsonData => createBarGraph(jsonData))
  .catch(error => console.error(error));
 
+ prompt("As a guest user, you can only access sample data plots!!");
 
 AFRAME.registerComponent('text', {
     schema: {
