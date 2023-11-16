@@ -11,7 +11,7 @@
       <span class="icon"></span>
   </div>
     <a-scene embedded background-color="red" arjs="debugUIEnabled: false;">
-      <a-marker-camera type='pattern' url='../markers/xrm.patt'>
+      <a-marker-camera type='pattern' url='../../markers/xrm.patt'>
         <a-entity position="0 0 0">
           <!-- Cube with different images on each face -->
           <a-box position="0 0 0">
@@ -21,11 +21,10 @@
             <a-plane material="src: url(./img/hw.jpg)"position="0.51 0 0" width="1" height="1" rotation="0 90 -90"></a-plane>
             <a-plane material="src: url(./img/nft.jpg)"position="0 0 -0.51" width="1" height="1" rotation="0 180 180"></a-plane>
             <a-plane material="src: url(./img/xr.jpg)"position="0 -0.51 0" width="1" height="1" rotation="90 180 0"></a-plane>
-
           </a-box>
         </a-entity>
       </a-marker-camera>
-      <a-sky src="../assets/bg.jpg" position="0 0 0"></a-sky>
+      <a-sky src="../../assets/bg.jpg" position="0 0 0"></a-sky>
       
     </a-scene>
   </body>

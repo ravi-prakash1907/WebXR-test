@@ -70,5 +70,9 @@ The links to some sample projects can be found on the [src](./src) page.
 Following is the frequently used **Hiro marker**:  
 
 ![Hiro Marker](https://upload.wikimedia.org/wikiversity/en/0/08/Pattern-hiro.png)   
-![AR Marker](./src/basics/markers/ar.png)   
+
+<!--
+ Best for 6-%  to 65% pattern ratio generated from:
+ https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.htmlhttps://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+-->
 ![RASSE Marker](./src/basics/markers/xrm.png)   
