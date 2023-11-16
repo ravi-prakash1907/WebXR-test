@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="./bardraw.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <a-scene>
-        <a-entity position="0 0 -8" rotation="0 0 0">
-            <a-entity id="bars" rotation="90 0 0"></a-entity>
-        </a-entity>
-    </a-scene>
+      <!-- Bar 1 -->
+      <a-box position="-2 0.5 -3" width="0.5" height="1" depth="0.5" color="red"></a-box>
 
-</body>
+      <!-- Bar 2 -->
+      <a-box position="-1 1 -3" width="0.5" height="2" depth="0.5" color="green"></a-box>
+
+      <!-- Bar 3 -->
+      <a-box position="0 0.5 -3" width="0.5" height="1" depth="0.5" color="blue"></a-box>
+
+      <!-- Bar 4 -->
+      <a-box position="1 0 -3" width="0.5" height="0.5" depth="0.5" color="orange"></a-box>
+
+      <!-- Axes -->
+      <a-entity line="start: -3 0 0; end: 3 0 0; color: white;"></a-entity>
+      <a-entity line="start: -3 0 0; end: -3 2 0; color: white;"></a-entity>
+
+      <!-- Labels -->
+      <a-entity text="value: Bar 1; align: center;" position="-2 0.5 -3.5"></a-entity>
+      <a-entity text="value: Bar 2; align: center;" position="-1 2 -3.5"></a-entity>
+      <a-entity text="value: Bar 3; align: center;" position="0 0.5 -3.5"></a-entity>
+      <a-entity text="value: Bar 4; align: center;" position="1 0 -3.5"></a-entity>
+
+      <!-- Camera and Controls -->
+      <a-entity camera look-controls wasd-controls position="0 1.6 0"></a-entity>
+    </a-scene>
+  </body>
 </html>
