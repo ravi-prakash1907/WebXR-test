@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <!-- <script src="https://rawgit.com/donmccurdy/aframe-extras/v6.0.0/dist/aframe-extras.min.js"></script> -->
+  </head>
+  <body>
+    <a-entity position="0 0 0">
+      <!-- Cube with different images on each face -->
+      <a-box position="0 0 0">
+        <a-plane material="src: url(./img/avatar.jpg)" position="-0.51 0 0" width="1" height="1" rotation="0 -90 90"></a-plane>
+        <a-plane material="src: url(./img/blockchain.jpg)" position="0 0.51 0" width="1" height="1" rotation="-90 0 0"></a-plane>
+        <a-plane material="src: url(./img/immersion.jpg)" position="0 0 0.51" width="1" height="1" rotation="0 0 90"></a-plane>
+        <a-plane material="src: url(./img/hw.jpg)" position="0.51 0 0" width="1" height="1" rotation="0 90 -90"></a-plane>
+        <a-plane material="src: url(./img/nft.jpg)" position="0 0 -0.51" width="1" height="1" rotation="0 180 180"></a-plane>
+        <a-plane material="src: url(./img/xr.jpg)" position="0 -0.51 0" width="1" height="1" rotation="90 180 0"></a-plane>
+      </a-box>
+    </a-entity>
+  </body>
+</html>
+
