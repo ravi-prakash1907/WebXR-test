@@ -35,6 +35,9 @@ function plotQuote(data) {
   var authContainer = document.getElementById("author");
 
   //////////////////////////////
+  // plain ans simple fonts:  kelsonsans, exo2semibold
+  // plain stylish: dejavu
+  // bold fonts:  exo2bold, mozillavr, monoid
 
   const gotQuote = data['quoteText'];
   const qColor = "#f00";

@@ -51,18 +51,21 @@ function plotQuote(data) {
   var authContainer = document.getElementById("author");
 
   //////////////////////////////
+  // plain ans simple fonts:  kelsonsans, exo2semibold
+  // plain stylish: dejavu
+  // bold fonts:  exo2bold, mozillavr, monoid
 
   const gotQuote = data['quoteText'];
-  const qColor = "#f00";
-  const qFont = "sourcecodepro";
+  const qColor = "#ffffff";
+  const qFont = "exo2bold"; 
   const qPosition = '0 1 -4';
   // adding
   addTextEntityToContainer(quoteContainer, gotQuote, qColor, qFont, qPosition);
 
   const quoteAuthor = data['quoteAuthor'];
-  const authColor = "#000";
-  const authFont = "dejavu";
-  const authPosition = '0 1 -4';
+  const authColor = "#9ceb00";
+  const authFont = "mozillavr";
+  const authPosition = '0 1 -4.5';
   // adding
   addTextEntityToContainer(authContainer, quoteAuthor, authColor, authFont, authPosition);
 }
