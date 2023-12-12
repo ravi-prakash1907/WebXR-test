@@ -26,3 +26,7 @@
 ### Marker-based AR Solutions  
 
 1. [Six Components _(3+3)_ of Healthcare Metaverse _(with custom marker)_](./pages/visuals/hcMetavese-ar.html)  
+
+## Projects
+
+1. Random Quote Generator [[API based](./projects/XR-Quotes/xr-quotes.html)] [[static](./projects/XR-Quotes/xr-quotes-noAPI.html)]
