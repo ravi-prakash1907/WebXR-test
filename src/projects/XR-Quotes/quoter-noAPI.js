@@ -25,42 +25,44 @@ fetch(qFilePath)
 ////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////
 
-function plotQuote(data) {
-  // index
-  var qIndex = getRandomInt();
-  // var data = jsonData[index];
+// function to plot a text information in webXR using A-frame
+function addTextEntityToContainer(container, text, color, font, position) {
+  const entity = document.createElement('a-entity');
+  // building entity
+  entity.setAttribute('text', {
+    value: text,
+    color: color,
+    font: font,
+    align: 'center',
+    width: 3,
+  });
+  // positioning 
+  entity.setAttribute('position', position);
+  // attatching to page
+  container.appendChild(entity);
+}
 
+
+function plotQuote(data) {
   console.log(data)
 
-  // tracing plotting location
+  // tracing plotting location //
   var quoteContainer = document.getElementById("quote");
   var authContainer = document.getElementById("author");
 
-  var gotQuote = data['quoteText'];
-  var quoteAuthor = data['quoteAuthor'];
+  //////////////////////////////
 
-  /////
-  var qText = gotQuote; 
-  var qColor = "#f00";
-  var qFont = "sourcecodepro";
-  var qAuthName = quoteAuthor; 
-  var authColor = "#000";
-  var authFont = "dejavu";
-  /////
+  const gotQuote = data['quoteText'];
+  const qColor = "#f00";
+  const qFont = "sourcecodepro";
+  const qPosition = '0 1 -4';
+  // adding
+  addTextEntityToContainer(quoteContainer, gotQuote, qColor, qFont, qPosition);
 
-  quoteContainer.innerHTML += `<a-entity text="
-  value: ${qText};
-  color: ${qColor};
-  font: ${qFont};
-  align: center; width: 3" 
-  position="0 1 -4"
-  ></a-entity>`;
-
-  authContainer.innerHTML += `<a-entity text="
-  value: ${qAuthName};
-  color: ${authColor};
-  font: ${authFont};
-  align: center; width: 2" 
-  position="0 1 -4"
-  ></a-entity>`;
+  const quoteAuthor = data['quoteAuthor'];
+  const authColor = "#000";
+  const authFont = "dejavu";
+  const authPosition = '0 1 -4';
+  // adding
+  addTextEntityToContainer(authContainer, quoteAuthor, authColor, authFont, authPosition);
 }
