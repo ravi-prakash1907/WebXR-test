@@ -30,6 +30,14 @@ _The result of executing above commands should look like:_
 
 ``` -->
 
+## Requirements  
+
+```sh
+pip install fastapi
+pip install uvicorn
+pip install 'uvicorn[standard]'
+```
+
 ## Usage
 
 ### Step-1: Navigate to API directory and set up a virtual environment  
